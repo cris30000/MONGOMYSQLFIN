@@ -1,0 +1,456 @@
+[{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb1"
+  },
+  "programa_id": "ObjectId('69a20d32c10a91584e2c5b66')",
+  "fecha_inscripcion": {
+    "$date": "2026-02-01T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "aprendiz_id": "ObjectId('69a20d32c10a91584e2c5b67')",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb2"
+  },
+  "aprendiz_id": "ObjectId('69a20d32c10a91584e2c5b67')",
+  "programa_id": "ObjectId('69a20d32c10a91584e2c5b67')",
+  "fecha_inscripcion": {
+    "$date": "2026-03-15T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb3"
+  },
+  "aprendiz_id": "69a20d32c10a91584e2c5b67",
+  "programa_id": "69a20d32c10a91584e2c5b6a",
+  "fecha_inscripcion": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb4"
+  },
+  "aprendiz_id": "69a2145ac10a91584e2c5ba1",
+  "programa_id": "69a20d32c10a91584e2c5b6b",
+  "fecha_inscripcion": {
+    "$date": "2026-04-10T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb5"
+  },
+  "aprendiz_id": "69a2145ac10a91584e2c5ba1",
+  "programa_id": "69a20d32c10a91584e2c5b6c",
+  "fecha_inscripcion": {
+    "$date": "2026-05-05T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb6"
+  },
+  "aprendiz_id": "69a2145ac10a91584e2c5ba2",
+  "programa_id": "69a20d32c10a91584e2c5b6c",
+  "fecha_inscripcion": {
+    "$date": "2026-06-18T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb7"
+  },
+  "aprendiz_id": "69a2145ac10a91584e2c5ba3",
+  "programa_id": "69a20d32c10a91584e2c5b6c",
+  "fecha_inscripcion": {
+    "$date": "2026-07-22T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb8"
+  },
+  "aprendiz_id": "69a2145ac10a91584e2c5ba4",
+  "programa_id": "69a20d32c10a91584e2c5b6c",
+  "fecha_inscripcion": {
+    "$date": "2026-08-09T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bb9"
+  },
+  "aprendiz_id": "69a2145ac10a91584e2c5ba5",
+  "programa_id": "69a20d32c10a91584e2c5b67",
+  "fecha_inscripcion": {
+    "$date": "2026-09-14T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a217a5c10a91584e2c5bba"
+  },
+  "aprendiz_id": "69a2145ac10a91584e2c5ba6",
+  "programa_id": "69a20d32c10a91584e2c5b6f",
+  "fecha_inscripcion": {
+    "$date": "2026-10-30T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+},
+{
+  "_id": {
+    "$oid": "69a233e2c10a91584e2c5bef"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5b9d"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b66"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-02-01T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5b9d"
+      },
+      "tipo_documento": "CC",
+      "documento": "1001234568",
+      "nombre_aprendiz": "Maria",
+      "apellido_aprendiz": "Gomez",
+      "edad": 22,
+      "fecha_nacimiento": {
+        "$date": "2001-06-12T00:00:00.000Z"
+      },
+      "correo_aprendiz": "maria@gmail.com",
+      "telefono_aprendiz": "3001234568"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf1"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5b9d"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b66"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-02-01T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5b9d"
+      },
+      "tipo_documento": "CC",
+      "documento": "1001234568",
+      "nombre_aprendiz": "Maria",
+      "apellido_aprendiz": "Gomez",
+      "edad": 22,
+      "fecha_nacimiento": {
+        "$date": "2001-06-12T00:00:00.000Z"
+      },
+      "correo_aprendiz": "maria@gmail.com",
+      "telefono_aprendiz": "3001234568"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf2"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5b9d"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b67"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-03-01T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5b9d"
+      },
+      "tipo_documento": "CC",
+      "documento": "1001234568",
+      "nombre_aprendiz": "Maria",
+      "apellido_aprendiz": "Gomez",
+      "edad": 22,
+      "fecha_nacimiento": {
+        "$date": "2001-06-12T00:00:00.000Z"
+      },
+      "correo_aprendiz": "maria@gmail.com",
+      "telefono_aprendiz": "3001234568"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf3"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba1"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b68"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-02-15T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5ba1"
+      },
+      "tipo_documento": "CC",
+      "documento": "1001234572",
+      "nombre_aprendiz": "Sofia",
+      "apellido_aprendiz": "Ramirez",
+      "edad": 21,
+      "fecha_nacimiento": {
+        "$date": "2002-03-30T00:00:00.000Z"
+      },
+      "correo_aprendiz": "sofia@gmail.com",
+      "telefono_aprendiz": "3001234572"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf4"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba2"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b66"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-04-10T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5ba2"
+      },
+      "tipo_documento": "TI",
+      "documento": "1001234573",
+      "nombre_aprendiz": "Diego",
+      "apellido_aprendiz": "Torres",
+      "edad": 18,
+      "fecha_nacimiento": {
+        "$date": "2005-01-15T00:00:00.000Z"
+      },
+      "correo_aprendiz": "diego@gmail.com",
+      "telefono_aprendiz": "3001234573"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf5"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba2"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b69"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-05-05T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5ba2"
+      },
+      "tipo_documento": "TI",
+      "documento": "1001234573",
+      "nombre_aprendiz": "Diego",
+      "apellido_aprendiz": "Torres",
+      "edad": 18,
+      "fecha_nacimiento": {
+        "$date": "2005-01-15T00:00:00.000Z"
+      },
+      "correo_aprendiz": "diego@gmail.com",
+      "telefono_aprendiz": "3001234573"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf6"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba3"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b66"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-06-18T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5ba3"
+      },
+      "tipo_documento": "CC",
+      "documento": "1001234574",
+      "nombre_aprendiz": "Valentina",
+      "apellido_aprendiz": "Morales",
+      "edad": 23,
+      "fecha_nacimiento": {
+        "$date": "2000-08-09T00:00:00.000Z"
+      },
+      "correo_aprendiz": "valentina@gmail.com",
+      "telefono_aprendiz": "3001234574"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf7"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba4"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b67"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-07-22T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5ba4"
+      },
+      "tipo_documento": "CC",
+      "documento": "1001234575",
+      "nombre_aprendiz": "Felipe",
+      "apellido_aprendiz": "Castro",
+      "edad": 27,
+      "fecha_nacimiento": {
+        "$date": "1996-12-01T00:00:00.000Z"
+      },
+      "correo_aprendiz": "felipe@gmail.com",
+      "telefono_aprendiz": "3001234575"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf8"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba5"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b68"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-08-09T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5ba5"
+      },
+      "tipo_documento": "CC",
+      "documento": "1001234576",
+      "nombre_aprendiz": "Camila",
+      "apellido_aprendiz": "Herrera",
+      "edad": 20,
+      "fecha_nacimiento": {
+        "$date": "2003-05-14T00:00:00.000Z"
+      },
+      "correo_aprendiz": "camila@gmail.com",
+      "telefono_aprendiz": "3001234576"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bf9"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba6"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b69"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-09-14T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": [
+    {
+      "_id": {
+        "$oid": "69a2145ac10a91584e2c5ba6"
+      },
+      "tipo_documento": "TI",
+      "documento": "1001234577",
+      "nombre_aprendiz": "Sebastian",
+      "apellido_aprendiz": "Vargas",
+      "edad": 19,
+      "fecha_nacimiento": {
+        "$date": "2004-09-20T00:00:00.000Z"
+      },
+      "correo_aprendiz": "sebastian@gmail.com",
+      "telefono_aprendiz": "3001234577"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69a234c5c10a91584e2c5bfa"
+  },
+  "aprendiz_id": {
+    "$oid": "69a2145ac10a91584e2c5ba7"
+  },
+  "programa_id": {
+    "$oid": "69a20d32c10a91584e2c5b66"
+  },
+  "fecha_inscripcion": {
+    "$date": "2026-10-30T00:00:00.000Z"
+  },
+  "estado": "activo",
+  "datos_aprendiz": []
+}]
